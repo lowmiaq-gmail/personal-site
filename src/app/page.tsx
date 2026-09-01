@@ -57,13 +57,13 @@ export default function Home() {
             className="space-y-6"
           >
             <h1 className="hero-text text-6xl font-bold tracking-tight md:text-8xl">
-              邓明翥
+              Low M.
             </h1>
             <p className="hero-text text-xl text-gray-400 md:text-2xl max-w-2xl">
-              重写热门 Python 库，<br />构建下一代 AI 基础设施
+              Rewriting popular Python libraries<br />in Rust for AI infrastructure
             </p>
             <p className="hero-text text-lg text-gray-500 max-w-xl">
-              Rust + Python 性能优化 · 贡献优先，变现随后
+              Performance · Open Source · Contribution first
             </p>
             <div className="hero-text flex gap-6 pt-4">
               <a
@@ -93,7 +93,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="mb-32"
         >
-          <h2 className="text-3xl font-bold mb-8 text-gray-200">已发布包</h2>
+          <h2 className="text-3xl font-bold mb-8 text-gray-200">Published Packages</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {packages.map((pkg, index) => (
               <motion.a
@@ -124,7 +124,7 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-6">
-            <h3 className="text-xl font-semibold mb-4 text-gray-300">GitHub 仓库</h3>
+            <h3 className="text-xl font-semibold mb-4 text-gray-300">GitHub Repositories</h3>
             <div className="flex flex-wrap gap-2">
               {githubRepos.map((repo) => (
                 <a
@@ -149,7 +149,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="mb-32"
         >
-          <h2 className="text-3xl font-bold mb-8 text-gray-200">上游贡献</h2>
+          <h2 className="text-3xl font-bold mb-8 text-gray-200">Upstream Contributions</h2>
           <div className="space-y-4">
             {upstreamContributions.map((contrib, index) => (
               <motion.a
@@ -188,21 +188,21 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="mb-20"
         >
-          <h2 className="text-3xl font-bold mb-6 text-gray-200">方法论</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-200">Approach</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-lg text-gray-400 leading-relaxed">
-              我的使命是为 Python 生态系统提供更快、更可靠的 Rust 原生后端实现。
-              通过重写关键库（dotenv、semver、iso8601 等），为下一代 AI 基础设施铺路。
+              Providing faster, more reliable Rust native backends for the Python ecosystem.
+              Rewriting critical libraries (dotenv, semver, iso8601, etc.) to pave the way for next-generation AI infrastructure.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed mt-4">
-              先做出真实贡献，建立技术信誉，变现是自然结果。
+              Contribution first, technical credibility builds naturally. Monetization follows.
             </p>
           </div>
         </motion.section>
 
         <footer className="border-t border-gray-900 pt-8 pb-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
-            <p>© 2026 邓明翥. 基于 MIT 许可的开源模板构建。</p>
+            <p>© 2026 Low M. Built with MIT-licensed open source template.</p>
             <div className="flex gap-6">
               <a href="https://github.com/lowmiaq-gmail" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
                 GitHub
