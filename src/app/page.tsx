@@ -80,7 +80,7 @@ export default function Home() {
                 className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
               >
                 <Mail size={20} />
-                <span>联系</span>
+                <span>Contact</span>
               </a>
             </div>
           </motion.div>
